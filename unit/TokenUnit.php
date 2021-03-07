@@ -21,7 +21,7 @@ class StaticUnit {
      */
     public static function buildHeader(array $attrs): array {
         $header_string = "";
-        foreach ($attrs as $key => $value){
+        foreach ($attrs as $key => $value) {
             if ($header_string != ""){
                 $header_string = "$header_string&";
             }
