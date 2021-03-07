@@ -9,7 +9,8 @@ class StaticUnit {
      * @return string AppSecret
      */
     public static function getAppSecret(): string{
-        return 'fcb1eb98faf99495';
+        //TODO
+        return 'secret';
     }
 
     /**
